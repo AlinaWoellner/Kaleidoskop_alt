@@ -66,6 +66,10 @@
       </ul>
     </li>
     <li><a href="#beispielaufbau">Beispielaufbau</a></li>
+    <li><a href="#entstehungsprozess">Entstehungsprozess</a></li>
+    <li><a href="#reflektion">Reflektion</a></li>
+    <li><a href="#ausstehend">Noch zu erledigen</a></li>
+    <li><a href="#hauptquellen">Hauptquellen</a></li>
     <li><a href="#kontakt">Kontakt</a></li>
   </ol>
 </details>
@@ -125,8 +129,16 @@ So kommt man eine lokale Kopie des Projekts
   8.  
   9.  
   10. 
-  11. 
- 
+
+
+##  Entstehungsprozess
+
+##  Reflektion
+
+## Noch zu erledigen
+
+## Hauptquellen
+https://www.instructables.com/Frankencan-LED-Kaleidoscope/
 
 <!-- CONTACT -->
 ## Kontakt
