@@ -2,18 +2,10 @@
 #include <Adafruit_NeoPixel.h>
 
 
-void setup() {
-  // put your setup code here, to run once:
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-
-#define NUMPIXELS 64
+#define NUMPIXELS 60
 #define BRIGHTNESS 30
 #define Pin 8
+
 
 int inPin = 2;
 int LED_Pin = 8;
@@ -24,6 +16,8 @@ int LEDlow = LOW;
 int lastTiltState = HIGH;
 long lastDebounceTime = 0; 
 long debounceDelay = 50;
+
+
 
 void theaterChase(uint32_t c, uint8_t wait) {
   for (int j=0; j<10; j++) {  //do 10 cycles of chasing
@@ -36,7 +30,7 @@ void theaterChase(uint32_t c, uint8_t wait) {
       delay(wait);
 
       for (uint16_t i=0; i < pixels.numPixels(); i=i+3) {
-        pixel.setPixelColor(i+q, 0);        //turn every third pixel off
+        pixels.setPixelColor(i+q, 0);        //turn every third pixel off
       }
     }
   }
