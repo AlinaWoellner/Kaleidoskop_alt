@@ -104,4 +104,12 @@ void theaterChaseRainbow(uint8_t wait) {
       }
       strip.show();
 
-      delay(wa
+      delay(wait);
+
+      for (uint16_t i=0; i < strip.numPixels(); i=i+3) {
+        strip.setPixelColor(i+q, 0);        //turn every third pixel off
+      }
+    }
+  }
+}
+}
