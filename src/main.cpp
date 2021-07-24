@@ -2,9 +2,9 @@
 #include <Adafruit_NeoPixel.h>
 
 
-#define NUMPIXELS 60
-#define BRIGHTNESS 30
-#define Pin 8
+#define NUMPIXELS 12   // How many NeoPixels are attached
+#define BRIGHTNESS 30   //
+#define Pin 8   // Pin to which the Neopixel is connected
 
 
 int inPin = 2;
@@ -36,6 +36,7 @@ void theaterChase(uint32_t c, uint8_t wait) {
   }
 }
 
+// Declare the NeoPixel object:
 Adafruit_NeoPixel pixels(NUMPIXELS, LED_Pin, NEO_GRB + NEO_KHZ800);
 #define DELAYVAL 500
 // Argument 1 = Number of pixels in NeoPixel strip
